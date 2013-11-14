@@ -152,6 +152,12 @@ const char CameraParameters::KEY_REDEYE_REDUCTION[] = "redeye-reduction";
 const char CameraParameters::KEY_SUPPORTED_REDEYE_REDUCTION[] = "redeye-reduction-values";
 const char CameraParameters::KEY_HIGH_DYNAMIC_RANGE_IMAGING[] = "hdr";
 const char CameraParameters::KEY_SUPPORTED_HDR_IMAGING_MODES[] = "hdr-values";
+#ifdef USE_MIONE_CAMERA
+// the xiaomi stuff 
+const char CameraParameters::KEY_GAMMA[] = "gamma";
+const char CameraParameters::KEY_CONVERSION[] = "conversion";
+const char CameraParameters::KEY_MATRIX[] = "matrix";
+#endif
 #endif
 const char CameraParameters::KEY_VIDEO_SIZE[] = "video-size";
 const char CameraParameters::KEY_SUPPORTED_VIDEO_SIZES[] = "video-size-values";
